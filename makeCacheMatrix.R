@@ -1,3 +1,11 @@
+# read the R script
+# replace the "path/to/file" with the directory you save
+the file into
+# or you can read the file directly from the web
+source("path/to/file/assessment3.R")
+# create a *square* matrix (because `solve` only handles square
+matrices)
+# create the matrix during the call of makeCacheMatrix()
 makeCacheMatrix <- function(x = numeric()) {
   
   # holds the cached value or NULL if nothing is cached
